@@ -15,6 +15,11 @@ public class HomeAppliancesStore {
             System.out.println("Type the address of the company: ");
             String addressc = inpt.nextLine();
             addresscObject.EmfanishAddress(addressc);
+        Scanner ipt = new Scanner(System.in);
+            Sum sumObject = new Sum();
+            System.out.println("Type the sum of workers: ");
+            String sum = ipt.nextLine();
+            sumObject.EmfanishSum(sum);
 
             if ((namec == null) || (addressc == null)) {
                 System.out.println("Error: Null.");
