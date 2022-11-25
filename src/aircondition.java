@@ -1,4 +1,4 @@
-public class WashineMachine {
+public class aircondition {
     String manufacturer_name;
     String device_name;
     String device_type;
